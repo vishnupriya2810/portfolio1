@@ -1,0 +1,220 @@
+.wholediv{
+    width: 1500px;
+    height: 3000px;
+    /* border: 2px solid blue; */
+    position: relative;
+    
+}
+ul{
+    display: flex;
+   list-style-type: none;
+   position: relative;
+   margin-left: 1000px ;
+   /* justify-content: right; */
+   width: 1500px;
+   height: 50px;
+   gap: 50px;
+   
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: relative;
+    margin-top: 15px;
+    
+    
+}
+a:hover{
+    color: blue;
+    cursor: pointer;
+
+}
+img{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -80px;
+    
+}
+h2{
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: 90px;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 45px;
+}
+h3{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: blue;
+}
+.name{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 600px;
+}
+#button{
+    /* background-color: white; */
+    color: black;
+    border-color: blue;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 2px;
+    font-size: 18px;
+}
+.a{
+    display: flex inline;
+    gap: 50px;
+
+}
+.icon2{
+    position: relative;
+    margin-top: 19px;
+}
+button:hover{
+    background-color: blue ;
+    cursor: pointer;
+}
+.navbar{
+ position:fixed ;
+ /* backdrop-filter: blur(5px); */
+ z-index: 50;
+ /* border: 2px solid blue; */
+}
+.skill{
+    width: 1500px;
+    height: 1000px;
+    /* background-color: red; */
+    position: absolute;
+    margin-top: 600px;
+    text-align: center;
+}
+.image{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* gap: 30px; */
+    row-gap: 100px;
+    justify-content: space-around;
+}
+.b{
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+.b:hover{
+    width: 230px;
+    height: 230px;
+    box-shadow: 5px 5px 5px 5px blue;
+
+}
+.portfolio{
+    /* background-color: red; */
+    width: 1500px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+   justify-content: space-evenly;
+}
+#a3{
+    position: absolute;
+    margin-top:1500px;
+    width: 1500px;
+    height: 400px;
+    /* background-color: blue; */
+    text-align: center;
+    
+}
+.b1{
+    display: grid;
+    width: 400px;
+    height: 400px;
+    background-color: hsl(240,2%,18%);
+    border-radius: 10px;
+    opacity: 0.9;
+    
+}
+#b1{
+    color: white;
+}
+.icon{
+    display: inline-flex;
+    padding: 100px;
+    gap: 100px;
+    font-size: 20px;
+    
+}
+.classs{
+    color: white;
+}
+.classs:hover{
+    color: blue;
+}
+.b1:hover{
+    width: 450px ;
+    height: 450px;
+    box-shadow: 2px 2px 2px 2px blue;
+
+}
+#a4{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 590px;
+}
+#name{
+    width: 200px;
+    height: 40px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+}
+#email{
+    width: 200px;
+    height: 40px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+    opacity: .9;
+}
+#text{
+    width: 400px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+    opacity: 0.5;
+}
+#send{
+    width: 200px;
+    height: 40px;
+    border-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.footer{
+    width: 1500px;
+    height: 100px;
+    position: absolute;
+    margin-top: 888px;
+    background-color: rgb(135, 135, 234);
+}
+.butt{
+    position:absolute;
+    margin-left: 300px;
+    margin-top: 50px;
+    /* border: 20px solid blue; */
+}
+.video{
+    z-index: -1;
+    position: fixed;
+    width: 1500px;
+    background: fixed;
+}
